@@ -1,26 +1,14 @@
-# app_contador_de_pessoas
-<<<<<<< HEAD
-<<<<<<< HEAD
-App simples que controla a quantidade de pessoas no ambiente, informando ao usuário caso esteja lotado
-=======
-=======
->>>>>>> origin/master
+## App Contador de Pessoas
+App simples que controla quantidade de pessoas no ambiente, indicando quando estiver lotado (máximo setado como 10).
 
-A new Flutter project.
+<img src="https://github.com/IsmaelPacheco/app_contador_de_pessoas/blob/master/assets/screenshots/Tela%20do%20App.png" height="500"> 
 
-## Getting Started
+### Layout simples:
 
-This project is a starting point for a Flutter application.
+**Utilizado Stack para fazer empilhamento dos Widgets. Dentro dele contém:**
+- **Column**: Englobando todos Widgets;
+- **Text**: Texto Simples que faz o incremento da quantidade de pessoas;
+- **Row**: Com dois botões para incrementar quantidade de pessoas;
+- **Text**: Texto simples com instruções de acordo com quantidade de pessoas.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-<<<<<<< HEAD
->>>>>>> App finalizado, com screenshots
-=======
->>>>>>> origin/master
+<img src="https://github.com/IsmaelPacheco/app_contador_de_pessoas/blob/master/assets/screenshots/App%20em%20uso.gif" height="500">
