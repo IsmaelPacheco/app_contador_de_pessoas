@@ -39,7 +39,11 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Stack(children: <Widget>[
       Image.asset(
+<<<<<<< HEAD
         "images/restaurant.jpg",
+=======
+        "./images/restaurant.jpg",
+>>>>>>> origin/master
         fit: BoxFit.cover,
         height: 1000.0,
       ),
